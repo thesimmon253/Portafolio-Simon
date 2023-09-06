@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device- width, initial-scale=1.0">
+    <title>Portafolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" id="filecss" href="CSS/styles.css">
+    <link rel="stylesheet" href="AOS/aos.css">
+</head>
+
+<body>
+    <header>
+        <div class="tema-color">
+            <button class="open-panel" onclick="activarPanel()">Colores</button>
+            <div class="cont-colores">
+        
+                <button onclick="grey()">1</button>
+                <button onclick="red()">2</button>
+                <button onclick="blue()">3</button>
+            </div>
+            </div>
+        <nav>
+            <a href="index.html" class="logo">
+                <img src="Medios/Fotos/logo.png" alt="">
+            </a>
+            <ul>
+                <li><a href="#hero">PERFIL</a></li>
+                <li><a href="#sobremi">SOBRE MÍ</a></li>
+                <li><a href="#proyectos">PROYECTOS</a></li>
+                <li><a href="#habilidades">HABILIDADES</a></li>
+                <li><a href="#footer1">CONTÁCTAME</a></li>
+            </ul>
+        </nav>
+
+        <div id="hero">
+            <img src="Medios/Fotos/foto1.png" alt="" data-aos="fade-right">
+            <p class="tit1" data-aos="fade-right">SIMÓN ESTEBAN </p>
+            <p class="tit1-1" data-aos="fade-right">PERALTA BAQUERO</p>
+            <p class="parr1" data-aos="fade-right">ANALISTA Y DESARROLLADOR DE SOFTWARE</p>
+        </div>
+    </header>
+
+    <main>
+        <section id="sobremi">
+            <div id="aboutme">
+                <img class="img2" src="Medios/Fotos/foto2.png" alt="" data-aos="fade-left">
+                 <p class="tit2" data-aos="fade-left">SOBRE MÍ</p>
+                    <p class="parr2" data-aos="fade-left">Aprendiz SENA del programa Tecnólogo en Análisis y Desarrollo de Software (ADSO),
+                        con conocimientos en diversos lenguajes de programación, y en el campo de la Ciberseguridad,
+                        exbecario del VTP en Web Programming en las ciudades de Seúl y Gunpo, en Corea del Sur, y
+                        excompetidor de WorldSkills en la habilidad #54 (Ciberseguridad).
+                    </p>
+            </div>
+        </section>
+        <section id="proyectos">
+            <div id="projects">
+                <img class="imgpro"  src="Medios/Fotos/YLBB LOGO.png" alt="" data-aos="zoom-in">
+                <p class="tit3" data-aos="zoom-in">PROYECTOS</p> 
+                <p class="parr3" data-aos="zoom-in">Durante la formación del programa Tecnólogo en Análisis y Desarrollo de Software
+                    (ADSO), trabajé junto con un grupo de aprendices en un proyecto llamado
+                    “Your Little Big Business”, una tienda en línea de pequeños y medianos empresarios que publican
+                    sus productos y servicios, con el fin de hacer crecer sus negocios, bajo la guía del instructor SENA Luis Felipe Restrepo.
+                </p>
+                 
+            </div>
+        </section>
+        <section id="habilidades">
+            <div id="skills">
+                <p class="tit4" data-aos="zoom-out">HABILIDADES</p>
+                <div class="frontend" data-aos="zoom-out">
+                    <img class="alinear1" src="Medios/Habilidades/html.png" alt="">
+                    <img class="alinear2" src="Medios/Habilidades/css.png" alt="">
+                    <img class="alinear3" src="Medios/Habilidades/javascript.png" alt="">
+                    <img class="alinear4" src="Medios/Habilidades/photoshop.png" alt="">
+                    <img class="alinear5" src="Medios/Habilidades/illustrator.png" alt="">
+                </div>
+                <div class="data" data-aos="zoom-out">
+                    <img class="alinear6" src="Medios/Habilidades/mysql.png" alt="">
+                    <img class="alinear7" src="Medios/Habilidades/python.png" alt="">
+                    <img class="alinear8" src="Medios/Habilidades/r.png" alt="">
+                    <img class="alinear9" src="Medios/Habilidades/excel.png" alt="">
+                    <img class="alinear10" src="Medios/Habilidades/access.png" alt="">
+                </div>
+                <div class="others" data-aos="zoom-out">
+                    <img class="alinear11" src="Medios/Habilidades/powerbi.png" alt="">
+                    <img class="alinear12" src="Medios/Habilidades/ciberseguridad.png" alt="">
+                    <img class="alinear13" src="Medios/Habilidades/ingles.png" alt="">
+                    <img class="alinear14" src="Medios/Habilidades/coreano.png" alt="">
+                    <img class="alinear15" src="Medios/Habilidades/portugues.png" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer1">
+        <p class="tit5" data-aos="fade-up"
+        data-aos-duration="3000">CONTÁCTAME</p>
+        <div class="icons1" data-aos="fade-up"
+        data-aos-duration="3000">
+            <img class="icon1" src="Medios/Redes Sociales/github.png" alt="">
+            <img class="icon2" src="Medios/Redes Sociales/gmail.png" alt="">
+            <img class="icon3" src="Medios/Redes Sociales/facebook.png" alt="">
+        </div>
+        <div class="icons2" data-aos="fade-up"
+        data-aos-duration="3000">
+            <img class="icon4" src="Medios/Redes Sociales/instagram.png" alt="">
+            <img class="icon5" src="Medios/Redes Sociales/outlook.png" alt="">
+            <img class="icon6" src="Medios/Redes Sociales/linkedin.png" alt="">
+        </div>
+    </footer>
+    <script src="JS/main.js"></script>
+    <script src="AOS/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+
+</html>
